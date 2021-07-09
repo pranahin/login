@@ -34,4 +34,8 @@ const button = `
 </ul>
 </div>
 `;
-document.getElementById("pranah_root").innerHTML = button;  
+let comp = document.getElementById("pranah_root");
+comp.innerHTML = button;
+comp.addEventListener("click", ()=>{
+    alert('You clicked me!');
+});
