@@ -37,5 +37,5 @@ const button = `
 let comp = document.getElementById("pranah_root");
 comp.innerHTML = button;
 comp.addEventListener("click", ()=>{
-    alert('You clicked me!');
+    var win = window.open('http://tminc.ml/', 'New Window','width=500,height=600');
 });
